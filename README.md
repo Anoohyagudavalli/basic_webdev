@@ -1,2 +1,2 @@
 # basic_webdev
-static web page using HTML.
+Static web page using HTML.
