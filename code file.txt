@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<head>
+<title>webdev html</title>
+</head>
+<body>
+<h1 style="text-align:center";>WEB DEV</h1>
+<p>Hi,vjitians!this is DSS</p>
+<img src="dss.jpg" width="350" height="300"/>
+<h1>join DSS</h1>
+<form  action="/action_page.php"> >
+  <label for="fname">First name:</label> 
+ <input type="text" id="fname" name="fname" value="Elon">
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" value="musk">
+  <br>
+
+<label for="gender">Male</label><input type="radio" id="male" name="gender" value="Male">
+<label for="gender">Female</label><input type="radio" id="Female"name="gender" value="Female">
+<label for="gender">Other</label><input type="radio" id="Other" name="gender" value="Other"><br>
+ <label for="email">Email:</label> 
+ <input type="text" id="Email" name="email" value="your email"><br>
+<label for="bday">Date of Birth:</label>
+  <select id="date" name="date">
+    <option value="date" selected>date</option>
+    <option value="1">1</option> <option value="2">2</option> <option value="3">3</option>  <option value="4">4</option> <option value="5">5</option>  <option value="2">6</option> <option value="1">7</option>  <option value="2">8</option> <option value="1">9</option><option value="2">10</option><option value="1">11</option>   <option value="2">12</option><option value="1">13</option> <option value="2">14</option><option value="1">15</option>  <option value="2">16</option> <option value="1">17</option><option value="2">18</option><option value="1">19</option>  <option value="2">20</option> <option value="1">21</option>  <option value="2">22</option> <option value="1">23</option>  <option value="2">24</option> <option value="3">25</option>  <option value="4">26</option> <option value="5">27</option>   <option value="2">28</option> <option value="1">29</option>   <option value="2">30</option><option value="2">31</option></select>
+
+<select id="month" name="month">
+    <option value="month" selected>month</option>
+ <option value="a">January</option> <option value="a">Febrauary</option> <option value="a">March</option>  <option value="a">April</option> <option value="a">May</option>  <option value="a">June</option> <option value="a">July</option>  <option value="a">August</option> <option value="a">September</option><option value="a">October</option><option value="a">November</option>   <option value="a">December</option></select>
+ 
+<select id="year" name="year">
+    <option value="year" selected>year</option>
+ <option value="a">1996</option> <option value="a">1997</option> <option value="a">1998</option>  <option value="a">1999</option> <option value="a">2000</option>  <option value="a">2001</option> <option value="a">2002</option>  <option value="a">2004</option> <option value="a">2005</option><option value="a">2006</option><option value="a">2007</option>   <option value="a">2008</option></select><br>
+
+ <input type="checkbox" id="yes" name="yes" value="yes">
+  <label for="terms and conditions"> I agree all terms and conditions</label><br>
+ <input type="submit" value="Submit"> 
+</form> <br>
+<h2>Some of my favourite places in college:</h2>
+<p> &#9830; BBC<br>
+       &#9830; Canteen<br>
+       &#9830; A block<br>
+       &#9830; Eblock</p><br>
+<p>Make sure to follow DSS on instagram<a href="https://www.instagram.com/">@Dss_vjit</a></p>
+<h1 style="color:blue">DSS GROUPS</h1>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #eee;
+}
+
+</style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <th>GROUP</th>
+    <th>NAME</th>
+    <th>FACILITATOR</th>
+    <th>CLASSROOM LINK</th>
+  </tr>
+  <tr>
+    <td><img src="w.jpg" width="300" height="200"/></td>
+    <td>Web development</td>
+    <td>&#9899Saumya<br>
+            &#9899Thejus<br>
+            &#9899Taseen</td>
+     <td><a href="https://www.classroom.google.com/">webdev google classroom</a></td>
+  </tr>
+  <tr>
+    <td><img src="p.jpeg" width="300" height="200"/></td>
+    <td>Python</td>
+    <td>Pavan</td>
+  <td><a href="https://www.classroom.google.com/">py coders google classroom</a></td> 
+  </tr>
+  <tr>
+    <td><img src="g.png" width="300" height="200"/></td>
+    <td>GCP-Google cloud platform</td>
+     <td>Pranav</p>
+    <td><a href="https://www.classroom.google.com/">GCP google classroom</a></td>
+  </tr>
+
+</table>
